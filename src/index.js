@@ -1,1 +1,1 @@
-import "./day1/solution";
+import "./day1";
