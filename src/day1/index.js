@@ -1,8 +1,8 @@
 import { calculateFuel } from "./calculateFuel";
-import { data } from "./data";
+import { masses } from "../data/mass";
 
 let sum = 0;
 
-data.forEach(mass => (sum += calculateFuel(mass)));
+masses.forEach(mass => (sum += calculateFuel(mass)));
 
 console.log(sum);

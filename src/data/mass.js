@@ -1,4 +1,4 @@
-export const data = [
+export const masses = [
   104042,
   112116,
   57758,
